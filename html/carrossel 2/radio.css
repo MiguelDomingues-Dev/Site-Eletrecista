@@ -9,8 +9,8 @@ body {
 
 .content {
     position: absolute;
-    width: 200px;
-    height:  200px;
+    width: 430px;
+    height:  210px;
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
@@ -21,15 +21,15 @@ body {
 
 .navigation {
     position: absolute;
-    bottom: 20px;
+    bottom: 2.5px;
     left: 50%;
     transform: translate(-50%);
     display: flex;
 }
 
 .bar {
-    width: 70px;
-    height: 17px;
+    width: 12px;
+    height: 12px;
     border: 2px solid white;
     margin: 6px;
     border-radius: 5px;
@@ -38,7 +38,7 @@ body {
 }
 
 .bar:hover {
-    background-color: white;
+    background-color:  #CD1602;
 }
 
 input {
