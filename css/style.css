@@ -9,12 +9,19 @@
   src: url(../fonts/Multicolore/Multicolore.otf) format(opentype);
 }
 
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
 
 /* Fonts-GOOGLE */
   @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
   @import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+  /* Config geral */
 * {
   margin: 0;
   padding: 0;
@@ -37,7 +44,8 @@ html {
   width: 100vw;
 }
 body {
-  overflow-x: hidden;
+ overflow-x: auto;
+  
 }
 /* image logo */
 header img {
@@ -406,9 +414,125 @@ nav {
     display: flex;
     position: absolute;
     margin-top: 1560px;
-    margin-left: 8px;
-    margin-right: 8px;
-    width: 368px;
-    height: 178px;
+    margin-left: 0px;
+    margin-right: 18px;
+    width: 408px;
+    height: 428px;
 }
 
+/* rodapé */
+
+#white {
+  display: flex;
+  position: absolute;
+  margin-top: 2580px;
+  width: 100vw;
+  height: 146px;
+  background-color: rgb(233, 233, 233);
+}
+
+#red {
+  display: flex;
+  position: absolute;
+  margin-top: 2710px;
+  width: 100vw;
+  height: 37px;
+  background-color:  #CD1602;
+}
+
+#black {
+  display: flex;
+  position: absolute;
+  margin-top: 2747px;
+  width: 100vw;
+  height: 86px;
+  background-color:  var(--color1);
+}
+
+/* White */
+#white img {
+  position: absolute;
+  width: 126px;
+  height: 108px;
+  left: 7px;
+  top: 0px;
+}
+
+#white h2 {
+  position: absolute;
+  width: 195px;
+  height: 34px;
+  left: 149px;
+  top: 43px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+#white h1 {
+  position: absolute;
+  width: 210px;
+  height: 42px;
+  left: 119px;
+  top: 77px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+}
+
+#black h2 {
+  position: absolute;
+  width: 162px;
+  height: 29px;
+  left: 58px;
+  top: 26px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+#black .e2 {
+  position: absolute;
+  display: flex;
+  width: 265px;
+  height: 29px;
+  left: 18px;
+  top: 55px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+#black p {
+  position: absolute;
+  display: flex;
+  width: 126px;
+  height: 17px;
+  left: 275px;
+  top: 41px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#black img {
+  position: absolute;
+  width: 17px;
+  height: 18px;
+  left: 246px;
+  top: 38px;
+}
