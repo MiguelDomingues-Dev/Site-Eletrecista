@@ -7,18 +7,35 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="image2.0/raio-png.png" type="image/x-icon">
+    
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
     <!-- Estilos Reponsivos -->
-    <link rel="stylesheet" href="css/style.css" media="screen and (orientation: portrait)" />
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (orientation: portrait)" />
     <link rel="stylesheet" href="css/desktop" media="screen and (orientation: landscape)">
+    
+    <!-- corrousel -->
+    <link rel="stylesheet" href="./css/radio.css">
+    
+    <!-- Dark-mode -->
+    <link rel="stylesheet" href="./css/dark.css">
+    <link rel="stylesheet" href="css/style.css" media="screen">
 
     <title>Faustão & Eletrecista</title>
   </head>
   <body>
     <header id="inicio">
       <img src="arte do serviço (Pai)/logoelectro.png" alt="logo elétrica">
+      <div class="check">
+        <input type="checkbox" name="change-theme" id="change-theme" />
+      <label for="change-theme">
+        <i class="bi bi-sun"></i>
+        <i class="bi bi-moon"></i>
+      </label>
+      </div>
       <nav>
-        <a class="logo" href="#">nergizing</a>
+        <span><a class="logo" href="#">nergizing</a></span>
         <div class="mobile-menu">
           <div class="line1"></div>
           <div class="line2"></div>
@@ -27,7 +44,7 @@
         <ul class="nav-list">
           <li><a class="block" href="#">Home</a></li>
           <li><a class="block" href="#content3">Conteúdo</a></li>
-          <li><a class="block" href="#">Contato</a></li>
+          <li><a class="block" href="#contato">Contato</a></li>
         </ul>
       </nav>
     </header>
@@ -42,7 +59,7 @@
             <p class="text2">e Eletrodomésticos</p>
           </div>
         </div>
-        <button class="service" href="#">Serviços</button>
+        <button class="service" href="#rodapé">Serviços</button>
       </section>
       <section id="content2">
         <div class="Serviços">
@@ -74,9 +91,81 @@
           <p>O energizing conta com consertos profissionalizado e totalmente com garantia.</p>
         </div>
       </section>
-      <section id="content4">
+      <article id="content4">
         <p>Depoimento de clientes que já receberam o atendimento e o serviço </p>
-         <iframe src="./html/carrossel 2/carrossel.html" frameborder="0"  sandbox="sandbox" referrerpolicy="no-referrer"></iframe>
+      </article>
+      <section id="content5">
+        <div class="content9">
+          <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slid
+            e4">
+            <input type="radio" name="slide" id="slide5">
+    
+            <div class="slide s1">
+              <img src="./image2.0/depoimentos1.png" alt="Depoimentos1">
+            </div>
+            <div class="slide">
+              <img src="./image2.0/depoimentos2.png" alt="depoimentos2">
+            </div>
+            <div class="slide">
+              <img src="./image2.0/depoimentos3.png" alt="depoimentos3">
+            </div>
+            <div class="slide">
+              <img src="./image2.0/depoimentos4.png" alt="Depoimentos4">
+            </div>
+            <div class="slide">
+              <img src="./image2.0/depoimentos5.png" alt="Depoimentos 1 denovo">
+            </div>
+          </div>
+    
+          <div class="navigation">
+              <label class="bar" for="slide1"></label>
+              <label class="bar" for="slide2"></label>
+              <label class="bar" for="slide3"></label>
+              <label class="bar" for="slide4"></label>
+              <label class="bar" for="slide5"></label>
+          </div>
+        </div>
+      </section>
+
+      <!-- carrossel 2 -->
+      <section id="content6">
+        <div class="content9">
+          <div class="slides2">
+            <input type="radio" name="slide" class="inputs" id="slide1" checked>
+            <input type="radio" name="slide" class="inputs" id="slide2">
+            <input type="radio" name="slide" class="inputs" id="slide3">
+            <input type="radio" name="slide" class="inputs" id="slid
+            e4">
+            <input type="radio" name="slide" class="inputs" id="slide5">
+    
+            <div class="slide s2">
+              <img src="./image2.0/raio-dark2.0.png" alt="Depoimentos1">
+            </div>
+            <div class="slidet">
+              <img src="./image2.0/raio-dark3.0.png" alt="depoimentos2">
+            </div>
+            <div class="slidet">
+              <img src="./image2.0/raio-dark4.0.png" alt="depoimentos3">
+            </div>
+            <div class="slidet">
+              <img src="./image2.0/raio-dark5.0.png" alt="Depoimentos4">
+            </div>
+            <div class="slidet">
+              <img src="./image2.0/raio-dark6.0.png" alt="Depoimentos 1 denovo">
+            </div>
+          </div>
+    
+          <div class="navigations">
+              <label class="bars" for="slide1"></label>
+              <label class="bars" for="slide2"></label>
+              <label class="bars" for="slide3"></label>
+              <label class="bars" for="slide4"></label>
+              <label class="bars" for="slide5"></label>
+          </div>
       </section>
     </main>
     <footer>
@@ -93,7 +182,7 @@
               ELETRODOMÊSTICOS
             </h2>
             <p>+55 (15)99768-2292 </p>
-            <img src="./image/iconwhatsapp.png" alt="icone do Whatsapp">
+            <a href="HTTPS://wa.me/5515997682292"><img src="./image/iconwhatsapp.png" alt="icone do Whatsapp"></a>
           </span>
         </div>
     </footer>
