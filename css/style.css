@@ -56,6 +56,10 @@
   display: block;
 }
 
+.dark .light {
+  display: block;
+}
+
 .dark .logo {
   font-family: var(--font-titulo);
   margin-left: 9px;
@@ -120,6 +124,12 @@
   transform: rotate(45deg) translate(-5px, -7px);
 }
 
+/* menu-colado */
+.dark #inicio{
+  position: sticky;
+  top: -1px;
+}
+
 /* SECTION */
 /* section -Principal */
 .dark .consertos {
@@ -165,8 +175,14 @@
   border: transparent;
   border-radius: 4px;
   cursor: pointer;
+  transition: 0.6s;
 }
 
+.dark .service:hover {
+  background-color: white;
+  color: black;
+  transition: 0.8s;
+}
 .dark #content::after {
   content:'';
   margin-top: 225px;
@@ -176,6 +192,7 @@
   background-image: linear-gradient(#a30d0d, #ffffff);
   border-radius: 2px;
 }
+
 
 /* Section 2 */
 .dark #quadrado2 {
@@ -413,8 +430,18 @@
   background-color: rgb(233, 233, 233);
 }
 
-
+.dark #rodapé #white h2 {
+  color: black;
+}
 /* carrossel */
+.dark #content6 {
+  margin-left: 199px;
+  display: flex;
+  position: absolute;
+  margin-top: 1700px;
+  display: block;
+} 
+
 .dark .content9 {
   position: absolute;
   width: 335px;
@@ -427,7 +454,7 @@
   transform: translate(-50%, -50%);
 }
 
-.dark .navigation {
+.dark .navigations {
   position: absolute;
   bottom: 2.5px;
   left: 50%;
@@ -435,7 +462,7 @@
   display: flex;
 }
 
-.bar {
+.dark .bars {
   width: 12px;
   height: 12px;
   border: 2px solid white;
@@ -445,46 +472,46 @@
   transition: 0.5s;
 }
 
-.dark .bar:hover {
+.dark .bars:hover {
   background-color:  #E58162;
 }
 
-.dark input {
+.dark .inputs {
   display: none;
 }
 
-.dark .slides {
+.dark .slides2 {
   display: flex;
   width: 500%;
   height: 100%;
 }
 
-.dark .slide {
+.dark .slidet {
   width: 20%;
   transition: .6s;
 }
 
-.dark .slide img {
+.dark .slidet .imgdark {
   width: 100%;
   height: 100%;
 }
 
-.dark #slide1:checked ~ .s1 {
+.dark #slide6:checked ~ .s1 {
       margin-left: 0;
 }
 
-.dark #slide2:checked ~ .s1 {
+.dark #slide7:checked ~ .s1 {
   margin-left: -20%;
 }
 
-.dark #slide3:checked ~ .s1 {
+.dark #slide8:checked ~ .s1 {
   margin-left: -40%;
 }
 
-.dark #slide4:checked ~ .s1 {
+.dark #slide9:checked ~ .s1 {
   margin-left: -60%;
 }
 
-.dark #slide5:checked ~ .s1 {
+.dark #slide10:checked ~ .s1 {
   margin-left: -80%;
 }
