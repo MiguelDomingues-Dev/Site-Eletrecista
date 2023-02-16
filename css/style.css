@@ -223,7 +223,7 @@
   margin-top: 750px;
 }
 
-.dark .Serviço strong {
+.dark .Serviço span {
   color: #E58162;
   font-size: 18px;
   font-family: var(--font-text);

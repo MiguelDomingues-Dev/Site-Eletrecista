@@ -112,6 +112,7 @@ a {
 .light {
   display: none;
 }
+
 .logo {
   font-family: var(--font-titulo);
   font-size: 23px;
@@ -134,7 +135,7 @@ nav {
   list-style: none;
   top: 8vh;
   right: 0;
-  width: 100vw;
+  width: 100vw;  
   height: 92vh;
   background-color: var(--color4);
   flex-direction: column;
@@ -447,7 +448,7 @@ nav {
 }
 
 /* Depoimentos */
-#article p {
+#content4 p {
     display: flex;
     position: absolute;
     margin-top: 1420px;
@@ -456,7 +457,21 @@ nav {
     margin-left: 8px;
     margin-right: 8px; 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
+}
+
+.depois {
+  display: none;
+  position: relative;
+}
+
+.depois .clientes {
+  align-items: center;
+  position: absolute;
+  left: 360px;
+  top: -500px;
+  font-size: 3em;
+  font-family: 'Varela', sans-serif;
+}
 /* rodapé */
 
 #white {
