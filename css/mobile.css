@@ -680,7 +680,7 @@ input {
   display: none;
 }
 
-.content9 {
+.content18 {
   position: absolute;
   width: 335px;
   height:  210px;
@@ -752,4 +752,8 @@ input {
 
 #slide10:checked ~ .s2 {
   margin-left: -80%;
+}
+
+#content12 {
+  display: none;
 }
