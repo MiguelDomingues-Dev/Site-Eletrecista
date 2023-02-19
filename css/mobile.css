@@ -191,12 +191,6 @@ nav {
   transform: rotate(45deg) translate(-5px, -7px);
 }
 
-/* menu-colado */
-#inicio{
-  position: sticky;
-  top: -1px;
-}
-
 /* SECTION */
 /* section -Principal */
 .consertos {
